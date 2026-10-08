@@ -2,7 +2,7 @@
 # Russian State-Linked Cyber Activity in Europe
 ### Cyber Threat Intelligence Assessment | 2025–2026
 
-**Project Status:** Intelligence Planning and Methodology Development  
+**Project Status:** Active Intelligence Collection and Source Evaluation  
 **Assessment Period:** 1 January 2025 – 30 September 2026  
 **Geographic Scope:** European Union, United Kingdom, Norway and relevant European partners
 
@@ -14,8 +14,11 @@ The investigation examines threat actor attribution, operational objectives, tar
 
 It incorporates official government positions, independent technical research, specialist reporting and relevant public-source intelligence. Competing claims will be assessed against available evidence rather than treated as equally substantiated by default.
 
-
 ## Analytical Framework
+
+**Framework Version:** 1.0  
+**Framework Release:** [v1.0.0](https://github.com/jcharcenko/cti-osint-analytical-framework/releases/tag/v1.0.0)
+
 
 This investigation follows the independently developed [CTI & OSINT Analytical Framework v1.0](https://github.com/jcharcenko/cti-osint-analytical-framework).
 
@@ -30,8 +33,6 @@ The framework establishes the methodology for:
 - AI-assisted research verification and publication quality assurance.
 
 Project-specific intelligence requirements, collection records, evidence and analytical judgements are maintained in this repository.
-
-**Framework Version:** 1.0
 
 **Methodological Reference:** [CTI & OSINT Analytical Standard](https://github.com/jcharcenko/cti-osint-analytical-framework/blob/main/standards/analytical-standard.md)
 
