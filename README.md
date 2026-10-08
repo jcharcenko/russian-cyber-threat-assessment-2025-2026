@@ -14,6 +14,28 @@ The investigation examines threat actor attribution, operational objectives, tar
 
 It incorporates official government positions, independent technical research, specialist reporting and relevant public-source intelligence. Competing claims will be assessed against available evidence rather than treated as equally substantiated by default.
 
+
+## Analytical Framework
+
+This investigation follows the independently developed [CTI & OSINT Analytical Framework v1.0](https://github.com/jcharcenko/cti-osint-analytical-framework).
+
+The framework establishes the methodology for:
+
+- Intelligence requirements and collection planning.
+- Source reliability and information credibility evaluation.
+- Independent corroboration and attribution assessment.
+- Evidence traceability and structured incident recording.
+- MITRE ATT&CK analysis.
+- Analytical confidence and competing explanations.
+- AI-assisted research verification and publication quality assurance.
+
+Project-specific intelligence requirements, collection records, evidence and analytical judgements are maintained in this repository.
+
+**Framework Version:** 1.0
+
+**Methodological Reference:** [CTI & OSINT Analytical Standard](https://github.com/jcharcenko/cti-osint-analytical-framework/blob/main/standards/analytical-standard.md)
+
+
 ## Primary Intelligence Question
 
 What does publicly available evidence indicate about the objectives, targeting patterns, technical tradecraft and evolution of Russian state-linked cyber operations affecting European organisations between January 2025 and September 2026, and what are the implications for European security?
