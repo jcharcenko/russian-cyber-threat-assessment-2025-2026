@@ -108,6 +108,60 @@ It does not represent a confidence assessment that a specific Russian intelligen
 - SRC-007 — Cisco Talos, *Russian state-sponsored espionage group Static Tundra compromises unpatched end-of-life network devices*, published 20 August 2025.
   https://blog.talosintelligence.com/static-tundra/
 
+---
+
+## 9. Attribution update — 11 October 2026
+
+### New evidence
+
+SRC-009 records a UK NCSC announcement published on 13 July 2026 stating that the UK and EU member states formally attributed the December 2025 cyberattack against Poland's energy infrastructure to Russia's FSB Centre 16.
+
+CLM-010 captures this announcement as an official government attribution statement.
+
+This information was not incorporated into the original preliminary assessment above.
+
+### Analytical significance
+
+The government attribution adds an important evidentiary category to the assessment:
+
+1. CERT Polska (SRC-006) reports technical infrastructure overlaps linking the December operation to a previously tracked activity cluster.
+2. Cisco Talos (SRC-007) provides historical reporting associating Static Tundra with Russian state-sponsored activity and FSB Centre 16.
+3. UK NCSC (SRC-009) reports a formal UK and EU attribution of the December 2025 Polish energy attack to FSB Centre 16.
+
+The third finding is not merely another historical association. It is an explicit government attribution concerning the December 2025 operation.
+
+### Evidence limitations
+
+The NCSC announcement does not publicly disclose the complete intelligence and forensic basis for the attribution.
+
+The project has not established whether the participating governments relied on independent investigations, shared intelligence, CERT Polska findings, or some combination of these.
+
+Consequently, the announcement strengthens the publicly documented attribution case without independently resolving all technical attribution uncertainties.
+
+Its precise applicability to each facility recorded as INC-002, INC-003, INC-004 and INC-005 also remains to be assessed.
+
+### Updated assessment
+
+**Technical incident occurrence:** Supported by CERT Polska's investigation.
+
+**Association with the named activity cluster:** Supported by CERT Polska's reported technical infrastructure analysis; Moderate analytical confidence.
+
+**Formal Russian state organisational attribution:** Established as a reported UK and EU government position identifying FSB Centre 16.
+
+**Independent forensic verification of that attribution within this project:** Not established.
+
+**Overall assessment:** The December 2025 Polish energy operation is now subject to explicit formal government attribution to FSB Centre 16. This materially strengthens the publicly documented attribution case, although the underlying intelligence is not fully inspectable and incident-level attribution boundaries remain unresolved.
+
+### Further collection requirements
+
+- Obtain and evaluate the multinational advisory referenced by the NCSC.
+- Determine whether additional governments published separate attribution statements or technical evidence.
+- Establish which individual Polish incidents fall within the scope of the formal attribution.
+- Reassess confidence after evaluating the independence and specificity of the supporting evidence.
+
+**Additional source:** SRC-009 — UK NCSC, *UK and Allies urge critical sectors to improve defences against Russian intelligence targeting*, 13 July 2026.
+
+https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting
 
 ## Assessment status
 
