@@ -57,9 +57,16 @@ CERT Polska reports technical infrastructure overlaps supporting association wit
 
 ### Russian state organisational attribution
 
-This assessment has not yet independently evaluated the evidence connecting the activity cluster to a specific Russian state organisation.
+Cisco Talos (SRC-007) assesses Static Tundra as a Russian state-sponsored cyberespionage actor associated with Energetic Bear and the Russian FSB's Center 16. This provides historical attribution context for the activity cluster identified by CERT Polska.
 
-The reported cluster association must not be presented as independent proof of direction by a particular intelligence service.
+The evidence must be evaluated in two distinct stages:
+
+1. CERT Polska (SRC-006; CLM-006) associates the December 2025 Polish attacks with the Static Tundra activity cluster through reported infrastructure overlaps.
+2. Cisco Talos (SRC-007; CLM-007) provides historical research connecting Static Tundra to Russian state-sponsored activity.
+
+Together, these findings support a preliminary assessment that the Polish attacks are associated with a historically Russian state-linked activity cluster.
+
+However, Cisco Talos published its research before the December 2025 attacks. Its findings do not independently corroborate CERT Polska's incident-specific attribution, and the evidence evaluated in this project does not establish that FSB Center 16 directed the December operation.
 
 ## 5. Alternative explanations and limitations
 
@@ -97,7 +104,10 @@ It does not represent a confidence assessment that a specific Russian intelligen
 ## 8. Sources
 
 - SRC-006 — CERT Polska, *Energy Sector Incident Report - 29 December 2025*, published 30 January 2026.
-  https://cert.pl/en/posts/2026/01/incident-report-energy-sector-2025/
+  https://cert.pl/en/posts/2026/01/incident-report-energy-sector-2025/  
+- SRC-007 — Cisco Talos, *Russian state-sponsored espionage group Static Tundra compromises unpatched end-of-life network devices*, published 20 August 2025.
+  https://blog.talosintelligence.com/static-tundra/
+
 
 ## Assessment status
 
