@@ -59,6 +59,10 @@ Which countries, sectors and organisations were targeted, and what objectives ca
 - Which geographic areas and sectors appear most frequently in documented reporting?
 - What evidence indicates espionage, disruption, prepositioning or other objectives?
 - Are apparent targeting patterns affected by reporting bias?
+- Which reported operations involved attempted access, confirmed compromise, destructive activity or verified operational disruption?
+- What evidence establishes the actual consequences for affected organisations, including service availability, industrial processes and business continuity?
+- Where does reporting distinguish attacker intent from demonstrated impact, and what uncertainty remains regarding the scale or duration of disruption?
+
 
 ### PIR-03: Technical Tradecraft
 
