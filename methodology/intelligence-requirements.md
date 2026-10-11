@@ -49,6 +49,9 @@ Which Russian state-linked actors and documented proxies conducted or were credi
 - What evidence supports their attribution?
 - Which campaigns can be reliably associated with them?
 - Where does attribution remain disputed or uncertain?
+- Which reported operations can be linked to identifiable European victims, infrastructure or geographically specific incidents, rather than only broad international campaigns?
+- What incident-specific technical evidence supports the reported actor association, and is that evidence independently corroborated?
+- Where do formal government attribution statements apply to an entire operation or campaign without clearly establishing attribution for each individual incident?
 
 ### PIR-02: Targeting and Objectives
 
