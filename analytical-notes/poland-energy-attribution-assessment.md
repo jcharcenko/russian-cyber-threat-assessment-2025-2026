@@ -152,6 +152,14 @@ Its precise applicability to each facility recorded as INC-002, INC-003, INC-004
 
 **Overall assessment:** The December 2025 Polish energy operation is now subject to explicit formal government attribution to FSB Centre 16. This materially strengthens the publicly documented attribution case, although the underlying intelligence is not fully inspectable and incident-level attribution boundaries remain unresolved.
 
+### Incident-to-claim traceability — 12 October 2026
+
+CLM-006 is linked in the incident dataset to INC-002 (renewable-energy installations), INC-003 (attempted destructive attack against a combined heat-and-power facility), and INC-004 (manufacturing company). These links record CERT Polska's reported association of the coordinated operation with the named activity cluster; they do not independently verify incident-level Russian state organisational control or direction.
+
+INC-005, the separately reported second combined heat-and-power facility, remains supported by its incident-specific technical and operational-impact claims CLM-008 and CLM-009. The CLM-006 cluster association has not been automatically extended to that facility.
+
+CLM-010 records the broader formal UK/EU government attribution of the December 2025 Polish energy operation to FSB Centre 16. Its precise applicability to individual facilities, and the independence of the underlying intelligence and forensic evidence, remain unresolved in this assessment.
+
 ### Further collection requirements
 
 - Obtain and evaluate the multinational advisory referenced by the NCSC.
