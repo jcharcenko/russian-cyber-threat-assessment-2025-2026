@@ -97,9 +97,9 @@ The inclusion of a reported incident does not independently establish responsibi
 
 ## Project Status
 
-The assessment is currently in its planning and methodology phase.
+The assessment is in active intelligence collection, source evaluation and preliminary analysis. Structured source, claim, incident and TTP records, together with supporting analytical notes, are maintained in this repository.
 
-Research findings and analytical conclusions will be added after source evaluation and evidence collection.
+Findings remain provisional and subject to further corroboration, attribution review and pre-publication verification. A consolidated intelligence assessment has not yet been published.
 
 ---
 
