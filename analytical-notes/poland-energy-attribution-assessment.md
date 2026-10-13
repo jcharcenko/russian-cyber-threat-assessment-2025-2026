@@ -322,5 +322,85 @@ This update supersedes the earlier provisional judgement that the ESET-to-INC-00
 
 **Related references:** SRC-006, SRC-018; CLM-006, CLM-018; INC-003.
 
-**Related GitHub changes:** Steps 222 and 224.
+---
 
+## Dragos intelligence brief update — 13 October 2026: SRC-020 and INC-002
+
+### New source and scope of review
+
+The full text of Dragos's intelligence brief, *ELECTRUM: Cyber Attack on Poland's Electric System 2025* (updated January 2026), was examined and registered as SRC-020.
+
+This supplements Dragos's earlier public article (SRC-019). Both publications originate from the same organisation and must not be treated as independent corroboration.
+
+The brief confirms that Dragos participated in incident response at one affected site within the wider 29 December 2025 Polish energy-sector operation. Its publicly disclosed findings cannot automatically be generalised across all installations recorded under INC-002.
+
+Dragos states that sensitive incident-response and customer information is excluded from the published report. The underlying forensic artefacts and attribution indicators are therefore not sufficiently available for independent reproduction within this project.
+
+### Operational findings
+
+Dragos reports destructive activity affecting communications infrastructure and operational technology equipment at distributed energy facilities, including remote terminal units and network devices.
+
+The reported disruption affected the ability to communicate with and remotely control certain equipment. Electricity generation was not interrupted in the reported operation.
+
+Dragos states that insufficient network and OT-command logging prevents a definitive determination of whether adversaries attempted operational commands or concentrated on disabling communications.
+
+The report also discusses potential electricity-generation losses and wider grid-stability consequences. These are hypothetical scenarios and must not be presented as observed effects of the December 2025 attacks.
+
+### Behavioural and attribution assessments
+
+Dragos assesses ELECTRUM responsibility with Moderate confidence.
+
+It separately assesses with Moderate confidence that opportunistic exploitation of available access influenced the operation, and with Low confidence that incomplete preparation contributed to its limited operational impact.
+
+These are Dragos's analytical judgements rather than independently verified findings of this project.
+
+Dragos discusses historical overlap between ELECTRUM and Sandworm while cautioning that the classifications are not necessarily interchangeable.
+
+CERT Polska separately associates the coordinated attacks with the Static Tundra activity cluster. The underlying attribution evidence and precise investigative overlap between CERT Polska and Dragos have not been independently reconciled.
+
+The formal UK/EU attribution to FSB Centre 16 remains a distinct government assessment. Its complete underlying intelligence and applicability to each affected installation remain unavailable for independent verification.
+
+### Source independence and confidence
+
+SRC-019 and SRC-020 are related Dragos publications and provide one organisational reporting perspective, not two independent confirmations.
+
+Dragos acknowledges CERT Polska's investigation and describes its own incident-response involvement. This supports the existence of a potentially distinct investigative perspective but does not establish the independence of all underlying observations or attribution indicators.
+
+The additional technical and operational context strengthens the descriptive assessment of INC-002 without independently establishing ELECTRUM responsibility across the grouped installations.
+
+The existing Moderate analytical confidence in the incident-level assessment is retained. Confidence in independently identifying a specific Russian state organisation remains Low.
+
+No additional MITRE ATT&CK mapping is assigned.
+
+### Incident and claim traceability
+
+Following this review:
+
+- SRC-020 has been registered as the detailed Dragos intelligence brief.
+- CLM-019 references both SRC-019 and SRC-020.
+- INC-002 references SRC-006, SRC-019 and SRC-020.
+- INC-002 references CLM-003, CLM-004, CLM-005, CLM-006 and CLM-019.
+- INC-002 preserves the separate Static Tundra and ELECTRUM attribution assessments.
+- TTP-002 remains the existing provisional mapping, with its validation caveat unchanged.
+
+These changes do not establish ELECTRUM responsibility at every affected installation or resolve the relationship between ELECTRUM, Sandworm and Static Tundra in this operation.
+
+### Decision and outstanding requirements
+
+**Decision dated 13 October 2026:** Incorporate SRC-020 as additional Dragos reporting relevant to INC-002, retain the separate competing actor assessments, and preserve existing analytical confidence levels.
+
+This update supersedes the earlier provisional statement that the detailed Dragos intelligence brief had not been obtained or reviewed. The earlier statement is retained above as part of the chronological analytical record.
+
+Outstanding requirements include:
+
+1. Establishing which incident-specific forensic observations support Dragos's ELECTRUM attribution.
+2. Determining the independence of Dragos's attribution evidence from CERT Polska's investigation.
+3. Clarifying the relationship between the individual facilities investigated by Dragos and those documented by CERT Polska.
+4. Establishing the initial-access sequence and whether operational commands were attempted.
+5. Evaluating the applicability of the formal FSB Centre 16 attribution to individual incidents.
+
+**Related sources:** SRC-006, SRC-009, SRC-018, SRC-019, SRC-020.
+
+**Related claims:** CLM-006, CLM-010, CLM-018, CLM-019.
+
+**Primary incident:** INC-002.
