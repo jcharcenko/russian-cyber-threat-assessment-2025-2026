@@ -3,7 +3,6 @@
 **Project:** Russian State-Linked Cyber Activity in Europe, 2025–2026  
 **Review date:** 2026-10-12  
 **Status:** Preliminary inclusion assessment completed; attribution unresolved  
-**Related project steps:** 197–207  
 **Related sources:** SRC-015; SRC-016; SRC-017  
 **Related claims:** CLM-016; CLM-017  
 **Incident dataset decision:** Do not create INC-007 at this stage  
@@ -108,9 +107,9 @@ Government attribution statements, if obtained, must be recorded as attributed a
 
 ## 9. Decision History and Follow-Up
 
-**2026-10-12 — Step 206:** Preliminary assessment concluded that the La Poste DDoS activity should remain outside the main Russian state-linked incident dataset pending stronger attribution evidence.
+**2026-10-12 — Preliminary assessment:** The La Poste DDoS activity should remain outside the main Russian state-linked incident dataset pending stronger attribution evidence.
 
-**2026-10-12 — Step 207:** Decision documented in this analytical note, without changing existing source, claim, incident or TTP records.
+**2026-10-12 — Documentation:** The decision was recorded in this analytical note without changing existing source, claim, incident or TTP records.
 
 **Next action:** Retain SRC-015–SRC-017 and CLM-016–CLM-017 for traceability. Reassess incident inclusion only if materially new attribution evidence becomes available.
 
