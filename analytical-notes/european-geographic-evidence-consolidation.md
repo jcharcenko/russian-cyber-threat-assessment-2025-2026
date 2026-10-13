@@ -1,11 +1,11 @@
 
 # European Geographic Evidence — Consolidated Assessment
 
-**Assessment date:** 8 October 2026
-**Status:** Preliminary
-**Related incident:** INC-001
-**Sources:** SRC-001, SRC-002, SRC-003
-**Relevant requirement:** PIR-02
+**Assessment date:** 8 October 2026  
+**Status:** Preliminary  
+**Related incident:** INC-001  
+**Sources:** SRC-001, SRC-002, SRC-003  
+**Relevant requirement:** PIR-02  
 
 ## Intelligence Question
 
