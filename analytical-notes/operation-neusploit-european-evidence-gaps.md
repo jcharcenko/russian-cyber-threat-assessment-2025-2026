@@ -13,7 +13,7 @@
 
 Document the evidence currently supporting Operation Neusploit's reported targeting of European countries, the unresolved source-independence questions, and the reasons for deferring inclusion in the main incident dataset.
 
-This note records the analytical position reached during project Steps 158, 160, 163 and 165–167. It does not constitute independent confirmation of victim compromise or Russian state operational direction.
+This note records the analytical position reached through cross-source comparison, incident-inclusion review and follow-up European collection. It does not constitute independent confirmation of victim compromise or Russian state operational direction.
 
 ## 2. Source reporting
 
@@ -45,21 +45,21 @@ The existence of two technical publications must not be treated as proof of two 
 
 In particular, the relationship between CERT-UA's three additional EU-directed documents and Zscaler's Slovakia/Romania targeting evidence has not been established at sample or recipient level.
 
-## 4. Follow-up collection: Steps 165–167
+## 4. Follow-up European collection
 
-### Step 165 — Initial European source search
+### Initial European source search
 
 An initial search identified CERT-EU reporting that discussed Operation Neusploit and referenced Zscaler's findings.
 
 CERT-EU's repetition of Zscaler's targeting assessment does not independently corroborate Slovak or Romanian victim activity.
 
-### Step 166 — Slovakia
+### Slovakia
 
 Targeted searches of Slovak national cybersecurity reporting, including SK-CERT and the National Security Authority, did not locate an original incident-specific report confirming an affected Slovak organisation.
 
 This is a bounded negative search finding, not evidence that no Slovak organisation was targeted or affected.
 
-### Step 167 — Romania
+### Romania
 
 Targeted searches of Romanian cybersecurity reporting, including the National Cyber Security Directorate (DNSC), did not locate an original incident-specific investigation confirming a Romanian organisational victim of Operation Neusploit.
 
@@ -102,14 +102,14 @@ No inference of Russian state operational control is made solely from the APT28 
 
 ## 8. Decision history
 
-- **Step 158:** Cross-source comparison identified substantial technical overlap and unresolved evidentiary independence.
-- **Step 160:** Moderate-confidence assessment of reported attempted targeting in Slovakia and Romania.
-- **Step 163:** Incident inclusion deferred pending sufficient European organisational evidence.
-- **Step 164:** LEAD-005 registered to track outstanding collection requirements.
-- **Step 165:** Initial European search found derivative CERT-EU reporting but no independently confirmed victim.
-- **Step 166:** Slovak national-source search produced no original incident-specific corroboration in the examined material.
-- **Step 167:** Romanian national-source search produced no original incident-specific corroboration in the examined material.
-- **Step 168:** Evidence-gap documentation proposed; no change to existing claims or incident status.
+- **Cross-source comparison:** Cross-source comparison identified substantial technical overlap and unresolved evidentiary independence.
+- **Targeting assessment:** Moderate-confidence assessment of reported attempted targeting in Slovakia and Romania.
+- **Incident inclusion decision:** Incident inclusion deferred pending sufficient European organisational evidence.
+- **Collection-lead registration:** LEAD-005 registered to track outstanding collection requirements.
+- **Initial European source search:** Initial European search found derivative CERT-EU reporting but no independently confirmed victim.
+- **Slovak national-source review:** Slovak national-source search produced no original incident-specific corroboration in the examined material.
+- **Romanian national-source review:** Romanian national-source search produced no original incident-specific corroboration in the examined material.
+- **Evidence-gap documentation:** Evidence-gap documentation proposed; no change to existing claims or incident status.
 
 ## 9. Review trigger
 
@@ -123,4 +123,4 @@ Until then, CLM-013 through CLM-015 retain their recorded assessments and LEAD-0
 - SRC-013 — Zscaler ThreatLabz, Operation Neusploit, 2 February 2026: https://www.zscaler.com/blogs/security-research/apt28-leverages-cve-2026-21509-operation-neusploit
 - CERT-EU — February 2026 Cyber Brief (derivative campaign reporting): https://cert.europa.eu/publications/threat-intelligence/cb26-03/
 
-**Research note:** This document records the scope and conclusions of prior collection steps. It is not an exhaustive inventory of every Slovak or Romanian publication, and the negative search results are not proof of absence.
+**Research note:** This document records the scope and conclusions of the documented collection activities. It is not an exhaustive inventory of every Slovak or Romanian publication, and the negative search results are not proof of absence.
