@@ -272,3 +272,55 @@ No existing incident record, source reliability grade, claim attribution status 
 
 **Source and claim references:** SRC-006, SRC-007, SRC-009, SRC-018, SRC-019; CLM-006, CLM-007, CLM-010, CLM-018, CLM-019.
 
+---
+
+## Technical correspondence update — 13 October 2026: DynoWiper and INC-003
+
+### New analytical finding
+
+A detailed comparison of CERT Polska's technical investigation (SRC-006) and ESET Research's DynoWiper analysis (SRC-018) establishes High analytical confidence that both publications describe the same destructive-malware activity associated with INC-003.
+
+The correspondence is supported by:
+
+- Matching DynoWiper malware hashes published by both organisations.
+- Consistent Group Policy-related malware deployment characteristics.
+- A shared network indicator associated with the attack environment.
+- Consistent reporting of attempted destructive execution interrupted by endpoint protection.
+
+These technical correspondences provide substantially stronger evidence than similarities in attack date, sector or general behaviour alone.
+
+### Attribution implications
+
+The technical correspondence does not independently establish which threat actor conducted the destructive activity.
+
+CERT Polska associates the wider coordinated operation with the Static Tundra activity cluster through infrastructure and network-activity evidence. ESET separately attributes the DynoWiper component to Sandworm with medium confidence.
+
+CERT Polska's technical investigation also discusses Sandworm-related operational similarities without conclusively establishing Sandworm participation.
+
+The possibility of multiple actors, overlapping operational stages or differing vendor classifications remains unresolved. Matching technical evidence must not be counted as independent corroboration of a specific actor's identity.
+
+### Incident and claim traceability
+
+Following this assessment:
+
+- CLM-018 has been linked to INC-003.
+- INC-003 now references both SRC-006 and SRC-018.
+- INC-003 now references both CLM-006 and CLM-018.
+- The incident record preserves the distinct Static Tundra and Sandworm assessments.
+
+The High confidence judgement applies to the technical correspondence between investigations. Moderate confidence is retained for the incident-level assessment, and independent attribution to a specific Russian state organisation remains unresolved.
+
+No additional MITRE ATT&CK mapping has been assigned.
+
+### Decision and outstanding requirements
+
+**Decision dated 13 October 2026:** Treat the ESET DynoWiper findings and CERT Polska's CHP destructive-malware investigation as corresponding to INC-003 with High analytical confidence. Preserve the competing actor-attribution assessments without selecting a single responsible organisation.
+
+Outstanding requirements include establishing the full initial-access sequence, examining the independence of attribution evidence and determining whether separate actors participated in different operational stages.
+
+This update supersedes the earlier provisional judgement that the ESET-to-INC-003 technical correspondence was unconfirmed. The earlier wording is retained above to preserve the chronological analytical record.
+
+**Related references:** SRC-006, SRC-018; CLM-006, CLM-018; INC-003.
+
+**Related GitHub changes:** Steps 222 and 224.
+
