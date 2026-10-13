@@ -174,3 +174,101 @@ https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defe
 ## Assessment status
 
 Preliminary attribution assessment. Further corroboration required.
+
+---
+
+## Attribution update — 13 October 2026: ESET and Dragos evidence
+
+### Purpose and continuity
+
+This append-only update incorporates two additional technical attribution perspectives concerning the coordinated cyberattacks against Polish energy infrastructure on 29 December 2025.
+
+It supplements, rather than replaces, the earlier CERT Polska assessment and the 11 October 2026 update concerning formal UK/EU government attribution.
+
+The original findings remain preserved as part of the project's analytical decision history.
+
+### Additional registered sources and claims
+
+**SRC-018 / CLM-018 — ESET Research**
+
+ESET reports detecting and blocking three DynoWiper samples deployed against a Polish energy organisation on 29 December 2025. ESET attributes the destructive activity to Sandworm with medium confidence, citing malware and operational similarities to previously investigated activity, including ZOV.
+
+ESET did not observe the initial access stage and acknowledges the possibility of collaboration between different threat actors. Its technical findings support the reported attempted destructive execution but do not independently establish Sandworm responsibility.
+
+The apparent correspondence with INC-003, the attempted destructive attack against a Polish combined heat-and-power facility, is plausible but not confirmed. CLM-018 therefore has no incident ID assigned.
+
+**SRC-019 / CLM-019 — Dragos**
+
+Dragos reports direct incident-response involvement relating to the December 2025 Polish energy-sector attacks and assesses ELECTRUM responsibility with moderate confidence.
+
+Its public analysis focuses on distributed energy infrastructure, including remote terminal units, network devices and communications capabilities associated with renewable electricity generation.
+
+CLM-019 is linked to INC-002 as the most directly relevant grouped incident. This does not establish ELECTRUM responsibility for every affected installation.
+
+Dragos acknowledges CERT Polska's investigation. The independence of its underlying attribution evidence remains unresolved, and the detailed Dragos intelligence brief has not been confirmed as obtained or reviewed.
+
+### Comparison with existing attribution assessments
+
+**CERT Polska — SRC-006 / CLM-006:** Reports infrastructure and network-activity overlaps associating the coordinated attacks with the Static Tundra / Berserk Bear / Ghost Blizzard / Dragonfly activity cluster.
+
+**ESET — SRC-018 / CLM-018:** Attributes the attempted DynoWiper destructive activity to Sandworm with medium confidence, relying on malware and operational similarities.
+
+**Dragos — SRC-019 / CLM-019:** Attributes the Polish distributed-energy attacks to ELECTRUM with moderate confidence, citing its reported incident-response involvement and threat-activity analysis.
+
+**UK NCSC — SRC-009 / CLM-010:** Reports formal UK and EU government attribution of the December 2025 Polish energy operation to Russia's FSB Centre 16.
+
+These statements represent different evidentiary categories and investigative scopes. Their publication does not establish that the underlying attribution evidence is independent or that the named activity clusters correspond to three distinct perpetrators.
+
+Historical overlap between ELECTRUM and Sandworm does not prove identical operators in this incident. Conversely, CERT Polska's Static Tundra assessment does not by itself invalidate ESET's or Dragos's findings.
+
+### Alternative explanations
+
+The available evidence permits several explanations that are not necessarily mutually exclusive:
+
+1. One actor conducted the operation, with overlapping or insufficiently distinctive malware and infrastructure indicators producing different classifications.
+2. Different actors participated in separate operational stages, such as access preparation and destructive execution.
+3. Investigators examined different victims or components of a wider coordinated operation.
+4. Differences in vendor activity-cluster definitions contributed to the apparent attribution discrepancy.
+
+These remain hypotheses. The project has not established that any particular explanation occurred and does not assign probabilities to them.
+
+### Updated analytical judgements
+
+**High confidence:** The registered publications document materially different attribution assessments concerning the December 2025 Polish attacks.
+
+**Moderate confidence:** The incident reporting supports a coordinated destructive operation affecting multiple Polish facilities and organisations.
+
+**Moderate confidence:** CERT Polska's reported Static Tundra infrastructure association remains a credible technical assessment. ESET and Dragos provide additional relevant perspectives, but the exact relationship between their attribution evidence and CERT Polska's findings has not been independently resolved.
+
+**Low confidence:** The publicly examined evidence enables this project to independently determine which Russian intelligence organisation directed each component of the operation.
+
+The formal UK/EU attribution to FSB Centre 16 is an established government position concerning the operation. Its complete underlying intelligence and its applicability to each individual incident remain unavailable for independent verification.
+
+The Low confidence judgement concerns independent resolution of organisational responsibility. It does not constitute a finding that the government attribution is false.
+
+### Incident-level boundaries
+
+- **INC-002:** Directly relevant to CERT Polska and Dragos reporting; CLM-019 records the Dragos attribution without establishing responsibility at every installation.
+- **INC-003:** Potentially overlaps with ESET's DynoWiper observations; exact victim correspondence remains unconfirmed.
+- **INC-004:** Retains the CERT Polska-reported cluster association; ESET and Dragos findings are not automatically extended to this manufacturing incident.
+- **INC-005:** Remains a distinct CHP incident; neither the CERT Polska cluster attribution nor ESET/Dragos actor assessments are automatically applied without incident-specific evidence.
+
+No existing incident record, source reliability grade, claim attribution status or MITRE ATT&CK mapping is changed by this analytical update.
+
+### Outstanding collection requirements
+
+1. Establish whether ESET's DynoWiper victim corresponds to INC-003.
+2. Obtain and examine the detailed Dragos ELECTRUM intelligence brief, if publicly accessible.
+3. Identify which Dragos observations are independent of CERT Polska's investigation.
+4. Reconcile victim-level and operational-stage coverage across CERT Polska, ESET and Dragos.
+5. Assess the applicability of the formal UK/EU FSB Centre 16 attribution to individual incidents.
+6. Seek original technical evidence and alternative reporting, including relevant Russian, Ukrainian and independent perspectives, without treating derivative reporting as independent corroboration.
+
+### Decision and status
+
+**Decision dated 13 October 2026:** Retain the separate Static Tundra, Sandworm and ELECTRUM attribution claims. Do not select a single perpetrator classification or revise incident-level attribution without further evidence.
+
+**Status:** Preliminary consolidated assessment; competing explanations and organisational responsibility remain unresolved.
+
+**Source and claim references:** SRC-006, SRC-007, SRC-009, SRC-018, SRC-019; CLM-006, CLM-007, CLM-010, CLM-018, CLM-019.
+
