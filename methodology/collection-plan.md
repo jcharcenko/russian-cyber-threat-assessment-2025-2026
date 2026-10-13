@@ -1,260 +1,261 @@
-
 # Intelligence Collection Plan
 
-**Project:** Russian State-Linked Cyber Activity in Europe  
-**Assessment Period:** 1 January 2025 – 30 September 2026  
-**Methodology:** CTI & OSINT Analytical Standard v1.0  
-**Status:** Initial Collection Plan  
-**Version:** 1.0
+**Project:** Russian State-Linked Cyber Operations Against European Critical Infrastructure
+**Assessment Period:** 1 January 2025 – 30 September 2026
+**Methodology:** CTI & OSINT Analytical Standard v1.0
+**Status:** Revised collection plan — proposed for implementation
+**Version:** 2.0
+**Change Control:** DEC-001, methodology/decision-history.md
 
 ## 1. Purpose
 
-This collection plan defines the approach for identifying, obtaining, validating and recording publicly available information relevant to Russian state-linked cyber operations affecting European organisations.
+This collection plan governs the targeted verification and analysis of three selected cyber operations affecting European critical infrastructure or supporting industrial suppliers.
 
-Collection will be directed by the project's five Priority Intelligence Requirements (PIRs).
+The objective is to develop an evidence-led comparative cyber threat intelligence assessment suitable for publication, rather than to construct an exhaustive dataset of Russian cyber operations across Europe.
 
-The objective is to develop a balanced, evidence-led dataset suitable for strategic, operational and technical cyber threat intelligence analysis.
+Collection remains directed by PIR-01 to PIR-05 as defined in methodology/intelligence-requirements.md.
 
 ## 2. Collection Objectives
 
-The collection process will seek to:
+The revised collection process will:
 
-1. Identify documented cyber operations within the assessment scope.
-2. Establish reported threat actors and evaluate attribution evidence.
-3. Record targeting patterns, affected sectors and apparent objectives.
-4. Extract technical evidence, including TTPs, malware, vulnerabilities and infrastructure.
-5. Identify competing official accounts and alternative explanations.
+1. Verify the chronology, affected organisations and operational consequences of each selected case.
+2. Evaluate reported Russian state-linked attribution and the underlying supporting evidence.
+3. Distinguish attacker objectives from demonstrated activity and impact.
+4. Extract incident-specific technical findings, including evidenced TTPs and ATT&CK mappings.
+5. Seek independent corroboration, competing accounts and plausible alternative explanations.
 6. Evaluate source reliability and information credibility.
-7. Identify recurring patterns and their defensive implications.
+7. Produce case-level judgements and carefully bounded comparative defensive implications.
 
-## 3. Collection Streams
+Routine discovery of unrelated incidents and comprehensive country-by-country or quarter-by-quarter coverage are outside the active collection objective.
 
-### Stream A: Official Reporting
+## 3. Selected Cases and Priority Evidence Gaps
 
-**Source categories:**
+### Case 01 — Poland: Coordinated Energy-Sector Attacks, December 2025
 
-- National cybersecurity agencies and CERT/CSIRT organisations.
-- European Union institutions and agencies.
-- National law enforcement and intelligence agencies.
-- Government advisories and official statements.
-- Russian official government and agency statements.
-- Ukrainian and other relevant national authorities.
+**Incident records:** INC-002, INC-003 and INC-005.
 
-**Collection priorities:**
+Treat these records as components of a coordinated operation, not as three independent campaigns.
 
-- Confirmed or attributed incidents.
-- Official attribution assessments.
-- Affected organisations and sectors.
-- Public technical advisories.
-- Statements of responsibility, denial or alternative explanation.
+**Priority collection questions:**
 
-Official statements will be treated as authoritative evidence of the issuing organisation's position, not automatically as proof of the underlying allegation.
+- What does original reporting establish about the chronology, affected systems and operational effects?
+- Which facilities experienced attempted disruption, confirmed compromise or verified interruption?
+- How do CERT Polska, ESET, Dragos and other relevant sources differ in their actor assessments?
+- Which attribution statements concern the wider operation and which concern specific components?
+- What technical evidence supports documented destructive activity and defensive effectiveness?
+- Are seemingly independent reports based on the same underlying investigation?
 
-### Stream B: Technical Intelligence
+### Case 02 — Ukraine: UAC-0212 Industrial Supplier Campaign, January–February 2025
 
-**Source categories:**
+**Incident record:** INC-008.
 
-- Cybersecurity vendor threat intelligence reports.
-- Incident-response investigations.
-- Malware and infrastructure analysis.
-- Vulnerability research.
-- Academic and independent technical research.
-- MITRE ATT&CK documentation.
+**Priority collection questions:**
 
-**Collection priorities:**
+- Which organisations and industrial supplier categories were reportedly targeted?
+- What activity occurred within the assessment period, as distinct from earlier campaign context?
+- Which initial access, execution, malware and post-compromise behaviours are documented?
+- Which targets were approached, compromised or investigated, and what distinctions can be supported?
+- What evidence supports a relationship to UAC-0002/Sandworm, and what remains source attribution?
+- Is there evidence of actual downstream effects on critical-infrastructure operators, or only a plausible supply-chain risk?
 
-- Initial access methods.
-- Credential theft and persistence.
-- Command-and-control activity.
-- Lateral movement and privilege escalation.
-- Collection, exfiltration and impact.
-- Malware families, tooling and exploited vulnerabilities.
-- Indicators of compromise where relevant.
+Do not equate supplier targeting with demonstrated compromise of downstream critical infrastructure.
 
-Technical findings must be linked to specific incidents or campaigns.
+### Case 03 — Sweden: District-Heating Incident, Spring 2025
 
-Historical actor capabilities will not be presented as observed incident behaviour.
+**Incident record:** INC-006.
 
-### Stream C: Specialist and Regional Reporting
+**Priority collection questions:**
 
-**Source categories:**
+- What does the original Swedish government disclosure establish about the reported incident?
+- Can the incident date, affected organisation or operational circumstances be independently established?
+- What evidence supports the reported attempted destructive activity and its outcome?
+- What evidence, if any, independently supports attribution or Russian state direction?
+- Are there relevant victim, regulator, technical or Russian official accounts?
+- Can the case support a substantive technical assessment, or only a qualified analysis of public attribution and reporting limitations?
 
-- Cybersecurity journalism.
-- Investigative reporting.
-- European national and regional media.
-- Russian-language independent and state-affiliated publications.
-- Specialist geopolitical and security analysis.
+If sufficient technical evidence remains unavailable, retain the case as a limited-evidence comparison rather than inventing technical findings. Reconsider its role before publication if the available record cannot support meaningful analysis.
 
-**Collection priorities:**
+## 4. Collection Streams
 
-- Identification of incidents not covered by major security vendors.
-- Victim statements and organisational impact.
-- Regional context.
-- Chronological developments.
-- Alternative accounts and disputed claims.
+### Stream A — Official Reporting
 
-Important claims will be traced to their original reporting wherever possible.
+Sources include national CERT/CSIRT bodies, cybersecurity agencies, government statements, intelligence and law-enforcement publications, European institutions, Ukrainian authorities and relevant Russian official accounts.
 
-### Stream D: Social and Alternative Media OSINT
+Prioritise original incident reporting, official attribution, victim identification, operational effects and documented claims or denials.
 
-**Source categories:**
+Official statements establish the issuing organisation's position but do not independently prove the underlying allegation.
 
-- Public researcher accounts and social-media posts.
-- Public Telegram channels.
-- GitHub repositories.
-- Relevant technical forums.
-- Public statements by alleged threat actors.
-- Other accessible OSINT material.
+### Stream B — Technical Intelligence
 
-**Collection priorities:**
+Sources include original incident-response investigations, security-vendor reports, malware research, infrastructure analysis, vulnerability research, academic publications and MITRE ATT&CK documentation.
 
-- Early incident reporting.
-- Claims of responsibility.
-- Public technical observations.
-- Researcher discoveries.
-- Contradictory or alternative reporting.
+Prioritise technical findings directly linked to the selected cases.
 
-Unverified material will be recorded as a lead or claim and will not automatically qualify as a confirmed incident.
+Do not transfer historical actor capabilities to an incident without supporting evidence. Record whether ATT&CK mappings are explicitly reported, analyst-mapped or inferred.
 
-## 4. Source Selection Criteria
+### Stream C — Specialist and Regional Reporting
 
-Sources will be prioritised according to:
+Sources include cybersecurity journalism, regional reporting, investigative publications, victim statements and relevant geopolitical or security analysis.
 
-1. Relevance to the intelligence requirements.
+Prioritise independent operational-impact reporting, chronology, conflicting interpretations and local context.
+
+Trace material claims to their original sources wherever possible.
+
+### Stream D — Social and Alternative Media OSINT
+
+Sources include public researcher accounts, social-media posts, Telegram channels, GitHub repositories, technical forums and public threat-actor statements.
+
+Use these sources to identify verifiable evidence, leads and competing claims.
+
+Unverified statements remain attributed claims or collection leads, not confirmed incident findings.
+
+## 5. Source Selection and Evaluation
+
+Prioritise sources by:
+
+1. Relevance to the selected cases and PIRs.
 2. Proximity to original evidence.
-3. Demonstrated expertise or direct knowledge.
+3. Direct knowledge and demonstrated expertise.
 4. Transparency of supporting evidence.
 5. Independence from other reporting.
-6. Availability of verifiable technical details.
+6. Availability of verifiable technical or operational detail.
 7. Relevance to the assessment period and geographic scope.
 
-Source diversity will be actively pursued to reduce selection bias.
+Evaluate source reliability (A–F) and information credibility (1–6) separately under the Admiralty system.
 
-No source will receive a reliability grade based solely on its country of origin, political alignment or organisational category.
+Do not assign reliability grades solely on nationality, political alignment or institutional category.
 
-## 5. Incident Inclusion Criteria
+Source diversity is desirable but does not substitute for evidentiary independence.
 
-An incident or campaign may enter the main dataset when:
+## 6. Incident Inclusion and Scope Control
 
-- Relevant activity occurred within the assessment period.
-- The activity affected an organisation or infrastructure within the defined geographic scope.
-- A Russian state link or documented proxy relationship is supported by identifiable evidence or attribution reporting.
-- At least one original source can be inspected.
-- Sufficient information exists to describe the reported or observed activity.
+The original incident dataset remains preserved.
 
-Disputed incidents may be included when their attribution status and limitations are clearly documented.
+The final comparative assessment is limited to the three selected cases, unless a later documented decision explicitly changes that selection.
 
-Cases failing these criteria will remain in a separate collection leads register.
+The selected cases must be grounded in identifiable original reporting of activity occurring within 1 January 2025 – 30 September 2026 and relevant to European critical infrastructure or supporting suppliers.
 
-## 6. Collection and Verification Procedure
+Reported attribution may be disputed, provided that the originating claims and evidentiary limitations are clearly identified.
 
-For each potential incident:
+Other incidents may be referenced for narrowly relevant context but must not silently become additional core case studies.
 
-**Step 1: Identification**
+New unrelated incidents should not be added merely to expand the dataset or fill geographic or quarterly coverage gaps.
 
-Identify the incident through official, technical, journalistic or OSINT reporting.
+## 7. Collection and Verification Procedure
 
-**Step 2: Original Source Retrieval**
+For each selected case:
 
-Locate the original advisory, report, statement, publication or technical evidence.
+**Step 1 — Identification:** Confirm the existing incident records and their scope.
 
-**Step 3: Source Registration**
+**Step 2 — Original Source Retrieval:** Reinspect the original report, advisory, statement or technical publication.
 
-Record the source ID, publisher, title, URL, publication date, access date and source category.
+**Step 3 — Source Registration:** Record source ID, publisher, title, URL, publication date, access date and category.
 
-**Step 4: Claim Extraction**
+**Step 4 — Claim Extraction:** Record material claims and their supporting evidence or passages.
 
-Extract relevant factual claims and identify their supporting passages or evidence.
+**Step 5 — Source Evaluation:** Apply Admiralty source reliability and information credibility separately.
 
-**Step 5: Source Evaluation**
+**Step 6 — Corroboration:** Seek independent support, contradictions, alternative explanations and possible circular reporting.
 
-Apply Admiralty Code source reliability (A-F) and information credibility (1-6) separately.
+**Step 7 — Technical Analysis:** Record incident-specific TTPs and justified ATT&CK mappings, distinguishing observation, source reporting and analytical inference.
 
-**Step 6: Corroboration**
+**Step 8 — Incident Classification:** Confirm the relevant dataset records and distinguish attempted activity, confirmed compromise, destructive action and operational impact.
 
-Identify independent supporting evidence, contradictions and possible circular reporting.
+**Step 9 — Analytical Review:** Record case-level findings, unresolved questions, competing interpretations and confidence judgements.
 
-**Step 7: Technical Analysis**
+Preserve source-to-claim-to-incident-to-TTP traceability throughout.
 
-Record documented TTPs and any justified MITRE ATT&CK mappings.
+## 8. Attribution Assessment
 
-Distinguish explicitly reported, analyst-mapped and inferred techniques.
+Record attribution at three levels:
 
-**Step 8: Incident Classification**
+- **Reported attribution:** An actor or state relationship identified by an external source.
+- **Supporting evidence:** Publicly inspectable material supporting, qualifying or challenging that identification.
+- **Analyst judgement:** The project's independent conclusion, where evidence is sufficient.
 
-Determine whether the case qualifies for the main incident dataset or should remain a research lead.
+A government attribution statement is evidence of that government's assessment, not automatic independent confirmation.
 
-**Step 9: Analytical Review**
+Do not infer state control from Russian language, political sympathy, claimed affiliation or pro-Russian alignment alone.
 
-Identify uncertainty, competing explanations and information gaps.
+Where the available evidence is insufficient, preserve uncertainty rather than assigning an unsupported actor identity.
 
-## 7. Attribution Assessment
+## 9. Data Management and Research Preservation
 
-Attribution will be recorded at three distinct levels:
+Maintain the existing structured records:
 
-- **Reported attribution:** An actor identified by an external source.
-- **Supporting evidence:** Publicly available information supporting or challenging that attribution.
-- **Analyst judgement:** The project's independent assessment, where sufficient evidence exists.
-
-An official attribution statement will not automatically become an independently verified attribution.
-
-Where available evidence is insufficient, the project will retain the originating source's attribution and explicitly acknowledge the limitation.
-
-## 8. Data Management
-
-The project will maintain the following structured records:
-
-| File | Purpose |
+| Record | Purpose |
 |---|---|
-| source-register.csv | Source identification, provenance and evaluation |
-| claim-register.csv | Individual claims, supporting evidence and corroboration |
-| incident-dataset.csv | Structured incident and campaign records |
-| ttp-mapping.csv | Documented technical behaviours and ATT&CK mappings |
-| collection-leads.csv | Potential incidents requiring further validation |
-| analytical-notes/ | Detailed assessments, contradictions and analytical observations |
+| source-register.csv | Source provenance and evaluation |
+| claim-register.csv | Claims and corroboration |
+| incident-dataset.csv | Incident and campaign records |
+| ttp-mapping.csv | Documented technical behaviours |
+| collection-leads.csv | Unresolved leads |
+| coverage-matrix.csv | Historical collection coverage and documented gaps |
+| analytical-notes/ | Detailed analytical findings and uncertainties |
 
-Each record will use a unique identifier.
+Existing records must not be deleted merely because they fall outside the revised publication scope.
 
-Sources, claims, incidents and TTP mappings will be cross-referenced to preserve traceability.
+The append-only methodology/decision-history.md records significant research and methodological decisions.
 
-## 9. Collection Limitations
+Preserve historical findings and document any corrections transparently.
 
-The assessment recognises several limitations:
+## 10. Limitations and Bias Controls
 
-- Not all incidents become publicly known.
-- Reporting visibility differs between countries and sectors.
-- Some technical findings may remain classified or commercially restricted.
-- Public attribution often relies on evidence that cannot be independently inspected.
-- Reporting frequency does not necessarily correspond to actual operational frequency.
-- Social-media claims may be inaccurate, misleading or deliberately deceptive.
-- Multiple publications may repeat information from a single original source.
+The assessment recognises that:
 
-These limitations will be reflected in analytical conclusions.
+- Public reporting is incomplete and uneven across countries and sectors.
+- Technical evidence may be classified, proprietary or unavailable.
+- Official attribution may depend on non-public intelligence.
+- Multiple publications may repeat a single original investigation.
+- Observed operational impact may differ from attacker intent.
+- The three cases have materially different evidentiary depth.
+- A selected-case comparison cannot establish Europe-wide incident prevalence or frequency.
 
-## 10. Collection Completion Criteria
+These limitations must be reflected in the findings, not confined to a general disclaimer.
 
-Collection may be considered sufficiently mature for initial analysis when:
+## 11. Collection Completion and Publication Readiness
 
-- Every PIR has received targeted collection effort.
-- Relevant official and independent sources have been examined.
-- Major identified campaigns have been reviewed.
-- Material competing perspectives have been sought and documented.
-- Technical findings can be traced to specific sources.
-- Significant corroboration gaps and reporting limitations are identified.
-- The incident dataset has undergone initial quality review.
+Collection will be considered sufficient to begin drafting when all of the following conditions are met for each selected case:
 
-Collection completeness does not imply that every incident has been identified.
+1. **Original evidence:** At least one identifiable original source has been inspected, with incident chronology and scope documented.
+2. **Material claims:** Central attribution, targeting, technical and impact claims are registered or explicitly identified as unsupported.
+3. **Corroboration:** Reasonable searches for independent confirmation and contradictory evidence have been performed and documented, including negative results.
+4. **Source evaluation:** Material sources and claims have appropriate reliability, credibility and provenance assessments.
+5. **Technical integrity:** Documented TTPs are traceable to incident evidence; unsupported mappings are omitted.
+6. **Impact classification:** Attempted actions, confirmed compromises, destructive activity and verified operational effects are clearly distinguished.
+7. **Attribution uncertainty:** Competing assessments and limits of public attribution evidence are recorded.
+8. **Analytical review:** Each case has provisional findings, confidence levels, alternative explanations and unresolved questions.
+9. **Cross-case readiness:** The available evidence can support at least a bounded comparison of operational consequences, attribution and defensive implications.
 
-## 11. Review and Change Control
+A criterion may be satisfied by explicitly documenting that reliable evidence is unavailable, provided the resulting analytical claim is appropriately limited. Missing evidence must never be treated as confirmation.
 
-The collection plan may be revised when new evidence, intelligence gaps or methodological concerns justify a change.
+### Stop Rule
 
-Changes to the scope, inclusion criteria or collection methodology must be documented.
+Once the above conditions are met, routine collection stops and report drafting begins.
 
-The original assessment period and geographic boundaries will remain unchanged unless explicitly revised.
+Additional collection is permitted only when new evidence could materially change a central finding, resolve a significant contradiction, or correct a factual error.
+
+There is no requirement to reach an arbitrary number of sources, incidents or ATT&CK mappings.
+
+### Publication Gate
+
+Before publication, verify factual claims, source links, dates, incident relationships, attribution wording, confidence judgements, citations and consistency between the PDF, executive brief and GitHub repository.
+
+The Swedish case must undergo a specific evidence-sufficiency review before final inclusion as a substantive case study.
+
+## 12. Review and Change Control
+
+The assessment period and revised geographic scope follow methodology/intelligence-requirements.md.
+
+Scope, case selection, inclusion criteria and material methodological changes require explicit approval and a new append-only decision entry.
+
+DEC-001 documents the rationale for the transition from broad European collection to a three-case comparative assessment.
+
+This collection plan does not retroactively invalidate the earlier research.
 
 ---
 
 **Methodological Reference:** CTI & OSINT Analytical Standard v1.0
 
-**Project:** Russian State-Linked Cyber Activity in Europe, 2025–2026
+**Project:** Russian State-Linked Cyber Operations Against European Critical Infrastructure, 2025–2026
