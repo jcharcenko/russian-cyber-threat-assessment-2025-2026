@@ -3,7 +3,6 @@
 **Project:** Russian State-Linked Cyber Activity in Europe, 2025–2026  
 **Review date:** 2026-10-12  
 **Status:** Completed preliminary calibration; further validation outstanding  
-**Related project steps:** 188–195  
 **Affected records:** SRC-001–SRC-016  
 **Methodological reference:** CTI & OSINT Analytical Framework v1.0.0
 
@@ -41,7 +40,7 @@ The methodology also specifies that unfamiliar or insufficiently assessable sour
 
 ## 4. Source Reassessments
 
-Five sources representing different reporting categories were examined during Steps 190–194.
+Five sources representing different reporting categories were examined during this calibration review.
 
 | Source ID | Publisher | Category | Existing grade | Review outcome |
 |---|---|---|---|---|
@@ -131,7 +130,7 @@ SRC-015 and SRC-016 originate within the same corporate group. Their accounts mu
 
 ## 6. Decisions
 
-The following decisions were reached during Steps 188–195:
+The following decisions were reached during this calibration review:
 
 1. Retain the existing source-evaluation methodology without amendment.
 2. Do not automatically upgrade or downgrade sources based on institutional status.
