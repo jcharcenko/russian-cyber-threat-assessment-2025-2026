@@ -1,107 +1,123 @@
+# Russian Cyber Operations Against European Critical Infrastructure
 
-# Russian State-Linked Cyber Activity in Europe
-### Cyber Threat Intelligence Assessment | 2025–2026
+**A Comparative Cyber Threat Intelligence Assessment | 2025–2026**
 
-**Project Status:** Active Intelligence Collection and Source Evaluation  
+**Project Status:** Focused research and evidence verification — final assessment in preparation  
 **Assessment Period:** 1 January 2025 – 30 September 2026  
-**Geographic Scope:** European Union, United Kingdom, Norway and relevant European partners
+**Geographic Scope:** Europe, explicitly including Ukraine  
+**Research Type:** Independent CTI and OSINT portfolio project
 
 ## Overview
 
-This project is an independent, evidence-led Cyber Threat Intelligence (CTI) and Open-Source Intelligence (OSINT) assessment of publicly documented Russian state-linked cyber activity affecting European organisations.
+This project examines three selected, publicly documented cyber operations affecting European critical infrastructure and supporting industrial suppliers during 2025–2026.
 
-The investigation examines threat actor attribution, operational objectives, targeting patterns, technical tradecraft and potential implications for European security.
+The assessment evaluates reported Russian state-linked attribution, targeting and operational objectives, technical tradecraft, observed consequences and defensive implications.
 
-It incorporates official government positions, independent technical research, specialist reporting and relevant public-source intelligence. Competing claims will be assessed against available evidence rather than treated as equally substantiated by default.
+Rather than attempting an exhaustive survey of Russian cyber activity across Europe, the research applies a structured analytical methodology to a bounded set of cases. Particular attention is given to conflicting attribution assessments, the independence of supporting sources and the distinction between attempted disruption and verified operational impact.
 
-## Analytical Framework
+The project is designed to produce a publication-ready intelligence assessment supported by transparent research records.
 
-**Framework Version:** 1.0  
-**Framework Release:** [v1.0.0](https://github.com/jcharcenko/cti-osint-analytical-framework/releases/tag/v1.0.0)
+## Selected Case Studies
 
+| Case | Focus | Research Records |
+|---|---|---|
+| **Poland — December 2025** | Coordinated cyberattacks affecting energy-sector facilities, including attempted destructive activity and differing reported operational consequences | INC-002, INC-003, INC-005 |
+| **Ukraine — January–February 2025** | Reported UAC-0212 campaign targeting industrial suppliers, including manufacturers and industrial automation businesses | INC-008 |
+| **Sweden — Spring 2025** | Reported attempted disruption involving a district-heating facility, with significant limitations in publicly available technical evidence | INC-006 |
 
-This investigation follows the independently developed [CTI & OSINT Analytical Framework v1.0](https://github.com/jcharcenko/cti-osint-analytical-framework).
+The Polish incident records are assessed as components of a coordinated operation, not as three independent campaigns.
 
-The framework establishes the methodology for:
+The Ukrainian case examines supplier targeting and potential critical-infrastructure relevance; downstream infrastructure compromise or disruption is not assumed.
 
-- Intelligence requirements and collection planning.
-- Source reliability and information credibility evaluation.
-- Independent corroboration and attribution assessment.
-- Evidence traceability and structured incident recording.
-- MITRE ATT&CK analysis.
-- Analytical confidence and competing explanations.
-- AI-assisted research verification and publication quality assurance.
+The Swedish case is retained for examination of reported activity and attribution uncertainty, with its analytical weight dependent on available evidence.
 
-Project-specific intelligence requirements, collection records, evidence and analytical judgements are maintained in this repository.
-
-**Methodological Reference:** [CTI & OSINT Analytical Standard](https://github.com/jcharcenko/cti-osint-analytical-framework/blob/main/standards/analytical-standard.md)
-
+**Case selection does not imply that all three operations have equivalent attribution confidence or technical corroboration.**
 
 ## Primary Intelligence Question
 
-What does publicly available evidence indicate about the objectives, targeting patterns, technical tradecraft and evolution of Russian state-linked cyber operations affecting European organisations between January 2025 and September 2026, and what are the implications for European security?
+What do three selected, publicly documented cyber operations reveal about Russian state-linked targeting of European critical infrastructure, the methods employed, observed operational consequences, attribution uncertainty and defensive implications during 2025–2026?
 
 ## Priority Intelligence Requirements
 
 | ID | Intelligence Requirement |
 |---|---|
-| PIR-01 | Identify relevant threat actors and assess the strength of attribution evidence. |
-| PIR-02 | Examine geographic and sectoral targeting patterns and apparent operational objectives. |
-| PIR-03 | Identify documented tactics, techniques and procedures (TTPs), tooling and infrastructure. |
-| PIR-04 | Evaluate competing official positions and independent evidence. |
-| PIR-05 | Assess supported trends, defensive implications and indicators of future activity. |
+| **PIR-01** | Assess evidence supporting actor attribution and identify unresolved or competing assessments. |
+| **PIR-02** | Establish affected operators and suppliers, apparent objectives and documented operational consequences. |
+| **PIR-03** | Examine incident-specific technical tradecraft and evidence-supported MITRE ATT&CK mappings. |
+| **PIR-04** | Compare government, victim, technical and other relevant accounts, including source independence and alternative explanations. |
+| **PIR-05** | Identify bounded comparative findings and evidence-supported defensive implications. |
 
-## Analytical Methodology
+The complete requirements are documented in [Intelligence Requirements](methodology/intelligence-requirements.md).
 
-The investigation follows **CTI & OSINT Analytical Standard v1.0**, developed as a repeatable methodology for this and future intelligence projects.
+## Analytical Framework and Methodology
+
+The project follows the independently developed [CTI & OSINT Analytical Framework v1.0](https://github.com/jcharcenko/cti-osint-analytical-framework), including its [v1.0.0 release](https://github.com/jcharcenko/cti-osint-analytical-framework/releases/tag/v1.0.0).
 
 The methodology incorporates:
 
-- Admiralty Code source reliability grading (A–F) and information credibility grading (1–6).
-- Separate High, Moderate and Low confidence levels for analytical judgements.
-- Claim-level source traceability and independent corroboration.
-- Explicit separation of reported claims, observed evidence, analytical inference and unknowns.
-- Incident-specific MITRE ATT&CK mapping.
-- Assessment of competing explanations and attribution limitations.
-- Pre-publication verification and citation auditing.
+- **Admiralty source evaluation:** Source reliability (A–F) and information credibility (1–6) assessed separately.
+- **Analytical confidence:** Explicit High, Moderate or Low confidence judgements, supported by rationale.
+- **Evidence traceability:** Source, claim, incident and technical-evidence relationships maintained in structured research records.
+- **Independent corroboration:** Examination of source independence, competing interpretations and possible circular reporting.
+- **Attribution discipline:** Separation of government attribution, reported actor associations, publicly inspectable technical evidence and independent analytical judgement.
+- **MITRE ATT&CK:** Incident-specific mapping only where supporting evidence is available.
+- **Publication verification:** Review of factual claims, citations, dates, confidence levels and analytical consistency.
 
-## Technical Analysis
+The [Intelligence Collection Plan](methodology/collection-plan.md) establishes evidence-sufficiency requirements, research stop rules and publication-readiness checks.
 
-Where supported by evidence, the project will examine:
+## Research Repository
 
-- Initial access
-- Credential access
-- Persistence
-- Command and control
-- Lateral movement
-- Collection and exfiltration
-- Impact and disruptive activity
+The repository preserves both the selected-case evidence and earlier research undertaken under the project's original broader scope.
 
-Observed techniques will be distinguished from analyst-mapped or inferred behaviours.
+| Resource | Description |
+|---|---|
+| [Intelligence Requirements](methodology/intelligence-requirements.md) | Revised research scope and five Priority Intelligence Requirements |
+| [Collection Plan](methodology/collection-plan.md) | Source collection, verification procedures and publication gates |
+| [Source Evaluation](methodology/source-evaluation.md) | Source assessment methodology |
+| [Decision History](methodology/decision-history.md) | Append-only record of significant methodological decisions |
+| [Source Register](research/source-register.csv) | Source provenance and evaluations |
+| [Claim Register](research/claim-register.csv) | Recorded claims and supporting evidence relationships |
+| [Incident Dataset](research/incident-dataset.csv) | Structured incident and campaign records |
+| [TTP Mapping](research/ttp-mapping.csv) | Recorded technical behaviours and ATT&CK mappings |
+| [Collection Leads](research/collection-leads.csv) | Unresolved or prospective research leads |
+| [Coverage Matrix](research/coverage-matrix.csv) | Historical coverage and documented research gaps |
+| [Analytical Notes](analytical-notes/) | Detailed incident, attribution and evidence assessments |
 
-Relevant findings will be translated into defensive implications for security operations and threat detection.
+Not every incident in the dataset forms part of the final three-case assessment. Earlier research remains available to preserve provenance, methodological transparency and the project's development history.
 
-## Planned Deliverables
+## Intended Publications
 
-1. Source register and claim-level evidence records.
-2. Structured incident and campaign dataset.
-3. Technical TTP analysis and MITRE ATT&CK mappings.
-4. Full intelligence assessment with documented analytical judgements.
-5. Concise professional intelligence brief suitable for publication on LinkedIn.
+The project is being developed towards four deliverables:
 
-## Limitations
+1. **Full CTI assessment:** An evidence-led comparative report suitable for public PDF publication.
+2. **Executive intelligence brief:** A concise summary of key judgements, confidence levels and defensive implications.
+3. **Supporting GitHub repository:** Research datasets, methodology and analytical documentation.
+4. **LinkedIn publication:** A professional introduction to the completed assessment, linking to the report and repository.
 
-This project relies on publicly available information. Its findings will reflect the visibility, quality and limitations of accessible reporting rather than a complete record of cyber operations.
+The final assessment and executive brief have **not yet been published**. Links will be added here once the documents are completed and verified.
 
-The inclusion of a reported incident does not independently establish responsibility, attribution or the accuracy of every claim associated with it.
+## Analytical Boundaries and Limitations
 
-## Project Status
+The assessment relies on publicly available reporting and cannot independently inspect all evidence underlying official or commercial attribution assessments.
 
-The assessment is in active intelligence collection, source evaluation and preliminary analysis. Structured source, claim, incident and TTP records, together with supporting analytical notes, are maintained in this repository.
+It does not assume Russian state direction solely from Russian-language activity, political alignment, claimed affiliation or government statements.
 
-Findings remain provisional and subject to further corroboration, attribution review and pre-publication verification. A consolidated intelligence assessment has not yet been published.
+Attempted compromise, confirmed compromise, destructive activity and verified operational disruption are distinguished throughout the analysis.
+
+The three selected cases are not a representative sample of Russian cyber operations across Europe. Their comparison cannot establish Europe-wide incident prevalence, frequency or trends.
+
+Evidence gaps and competing explanations are retained where they materially affect analytical confidence.
+
+## Current Project Status
+
+The original Europe-wide research scope has been narrowed to three selected critical-infrastructure cases to enable deeper verification, comparative analysis and a defined publication endpoint.
+
+The scope revision is documented in [DEC-001](methodology/decision-history.md).
+
+**Current phase:** Targeted case-study evidence verification and preparation for analytical synthesis.
+
+**Next publication milestone:** Completion of case-level evidence reviews, followed by the full comparative assessment and executive brief.
 
 ---
 
 *Independent portfolio research project. Not affiliated with, endorsed by or representing any government, intelligence agency or employer.*
-
