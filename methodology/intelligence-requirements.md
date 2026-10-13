@@ -1,10 +1,10 @@
 # Intelligence Requirements
 
-**Project:** Russian State-Linked Cyber Operations Against European Critical Infrastructure
-**Assessment Period:** 1 January 2025 – 30 September 2026
-**Status:** Revised scope — three selected case studies
-**Methodology:** CTI & OSINT Analytical Standard v1.0
-**Change Control:** DEC-001, methodology/decision-history.md
+**Project:** Russian State-Linked Cyber Operations Against European Critical Infrastructure  
+**Assessment Period:** 1 January 2025 – 30 September 2026  
+**Status:** Revised scope — three selected case studies  
+**Methodology:** CTI & OSINT Analytical Standard v1.0  
+**Change Control:** DEC-001, methodology/decision-history.md  
 
 ## 1. Primary Intelligence Question
 
